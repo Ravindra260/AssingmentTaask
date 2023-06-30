@@ -1,0 +1,136 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.header {
+    height: 100px;
+    width: 100%;
+
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header div {
+    /* border: 2px solid blue; */
+    height: 90px;
+    width: auto;
+    margin: auto;
+    justify-content: center;
+    margin-top: 10px;
+    justify-content: center;
+    align-items: center;
+}
+
+#logo1 {
+    width: 150px;
+    height: 80px;
+}
+
+#logo2 {
+    width: 150px;
+    height: 85px;
+}
+
+#div1 {
+    width: 20%;
+
+}
+
+#div2 {
+    width: 70%;
+
+}
+
+#logo3 {
+    width: 50px;
+    height: 60px;
+
+}
+
+.flex {
+    display: flex;
+}
+
+#logo4 {
+    width: 50px;
+    height: 60px;
+}
+
+#div3 {
+    width: 30%;
+
+}
+
+#div4 {
+    width: 70%;
+
+}
+
+#div5 {
+    width: 30%;
+}
+
+#div6 {
+    width: 70%;
+}
+
+#logo5 {
+    width: 150px;
+    height: 80px;
+
+}
+
+
+#header2 {
+    height: 50px;
+    width: 100%;
+    background-color: hsl(180, 75%, 66%);
+    justify-content: space-around;
+}
+
+.flex>ul {
+    display: flex;
+    list-style: none;
+    margin: auto;
+}
+
+ul li {
+    margin-left: 50px;
+}
+
+ul li:hover {
+    color: #ec0808;
+}
+
+
+input {
+    height: 50px;
+    background-color: blue;
+    color: white;
+    border-radius: 5px;
+}
+
+#header3 {
+    height: 350px;
+    width: 100%;
+}
+
+
+#image img {
+    height: 400px;
+    width: 100%;
+}
+
+.first-div p {
+    position: absolute;
+    top: 30%;
+    left: 10%;
+    color: hsl(253, 84%, 37%);
+    list-style: none;
+    font-size: larger;
+    display: flex;
+}
