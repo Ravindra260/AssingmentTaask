@@ -31,7 +31,7 @@
 }
 
 #logo2 {
-    width: 150px;
+    width: 100px;
     height: 85px;
 }
 
@@ -107,7 +107,7 @@ ul li:hover {
 }
 
 
-input {
+#search {
     height: 50px;
     background-color: blue;
     color: white;
@@ -121,16 +121,443 @@ input {
 
 
 #image img {
-    height: 400px;
+    height: 350px;
     width: 100%;
 }
 
-.first-div p {
+#fp1 {
     position: absolute;
     top: 30%;
     left: 10%;
-    color: hsl(253, 84%, 37%);
+    color: hsl(255, 100%, 99%);
     list-style: none;
-    font-size: larger;
+    display: flex;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+#fp2 {
+    position: absolute;
+    top: 30%;
+    left: 14%;
+    color: hsl(255, 100%, 99%);
+    list-style: none;
+    display: flex;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+#fp3 {
+    position: absolute;
+    top: 30%;
+    left: 20%;
+    color: hsl(255, 100%, 99%);
+    list-style: none;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+#fp4 {
+    position: absolute;
+    top: 30%;
+    left: 27%;
+    color: hsl(255, 100%, 99%);
+    list-style: none;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+#fp5 {
+    position: absolute;
+    top: 37%;
+    left: 10%;
+    color: hsl(255, 100%, 99%);
+    font-size: 35px;
+}
+
+#fp6 {
+    position: absolute;
+    top: 45%;
+    left: 10%;
+    color: hsl(255, 100%, 99%);
+    width: 420px;
+    font-size: 20px;
+
+}
+
+#fp7 {
+    position: absolute;
+    top: 56%;
+    left: 10%;
+    color: hsl(210, 95%, 32%);
+    font-size: 20px;
+    width: 160px;
+    height: 40px;
+    background-color: aqua;
+    color: white;
+}
+
+span {
+    color: hsl(0, 93%, 48%);
+    align-items: center;
+    font-weight: bold;
+}
+
+.first-div>p:hover {
+    background-color: aqua;
+}
+
+#header4 {
+    height: 50px;
+    width: 100%;
+    background-color: white;
+    justify-content: space-around;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px,
+        rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+#navv3>ul {
+    display: flex;
+    list-style: none;
+    margin: auto;
+    padding: 15px;
+}
+
+#navbar li {
+    color: black;
+    font-size: 15px;
+    font-weight: bold;
+
+}
+
+#navv3 {
+    margin-right: 30px;
+}
+
+.a {
+    margin-right: 20px;
+}
+
+.header5 {
+    width: 100%;
+    height: 300px;
+    display: flex;
+    padding: 20px;
+}
+
+#a1,
+#a2 {
+    width: 49%;
+    height: 299px;
+}
+
+#a2 img {
+    height: 250px;
+    width: 80%;
+    margin: auto;
+    padding-left: 30px;
+}
+
+.header6 {
+    width: 100%;
+    height: 430px;
+    display: flex;
+    padding: 20px;
+}
+
+#a3 {
+    height: 430px;
+    width: 50%;
+    padding-left: 30px;
+}
+
+#a4 {
+    height: 460px;
+    width: 300px;
+    box-sizing: border-box;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px,
+        rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px,
+        rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    margin: auto;
+    padding: 20px;
+}
+
+.color {
+    color: black;
+    height: 40px;
+    border-radius: 5px;
+    background-color: white;
+}
+
+#color1 {
+    width: 90%;
+    height: 40px;
+    background-color: blue;
+}
+
+.header7 {
+    height: 300px;
+    width: 800px;
+    padding-left: 30px;
+}
+
+#a5 {
+    height: 430px;
+    width: 50%;
+    padding: 50px;
+}
+
+.header8 {
+    height: 300px;
+    width: 800px;
+    padding-left: 30px;
+}
+
+#a6 {
+    height: 430px;
+    width: 50%;
+    padding: 50px;
+}
+
+.header9 {
+    height: 300px;
+    width: 800px;
+    padding-left: 30px;
+}
+
+#a7 {
+    height: 430px;
+    width: 50%;
+    padding: 50px;
+}
+
+.header10 {
+    height: 400px;
+    width: 800px;
+    padding-left: 30px;
+}
+
+#a8 {
+    height: 430px;
+    width: 50%;
+    padding: 50px;
+}
+
+.header11 {
+    height: 500px;
+    width: 800px;
+    padding-left: 30px;
+}
+
+#a9 {
+    height: 430px;
+    width: 100%;
+    padding: 50px;
+}
+
+.span {
+    color: blue;
+}
+
+.vl {
+    border-left: 1px solid blue;
+    height: 60px;
+    margin-left: 28px;
+
+}
+
+.header12 {
+    height: 500px;
+    width: 700px;
+    padding-left: 50px;
+
+    padding: 20px;
+}
+
+header12>div {
+    height: 400px;
+    width: 45%;
+    display: flex;
+    margin: auto;
+}
+
+.left {
+    height: 350px;
+    width: 45%;
+    box-shadow: rgba(6, 24, 44, 0.4) 0px 0px 0px 2px, rgba(6, 24, 44, 0.65) 0px 4px 6px -1px, rgba(255, 255, 255, 0.08) 0px 1px 0px inset;
+    margin-left: 10px;
+}
+
+.right {
+    height: 350px;
+    width: 46%;
+    box-shadow: rgba(6, 24, 44, 0.4) 0px 0px 0px 2px, rgba(6, 24, 44, 0.65) 0px 4px 6px -1px,
+        rgba(255, 255, 255, 0.08) 0px 1px 0px inset;
+    margin-left: 25px;
+}
+
+#sec {
+    display: flex;
+    margin: auto;
+}
+
+.flex1 {
     display: flex;
 }
+
+#D1 {
+    height: 60px;
+    width: 70%;
+
+}
+
+#D2 {
+    height: 60px;
+    width: 30%;
+
+}
+
+#D2 img {
+    height: 60px;
+}
+
+#D3 {
+    height: 230px;
+    width: 100%;
+
+}
+
+#D3 img {
+    width: 290px;
+    height: 230px;
+}
+
+#D4 {
+    height: 60px;
+    width: 30%;
+
+    border-radius: 50%;
+}
+
+#D5 {
+    height: 60px;
+    width: 70%;
+    padding: 8px;
+}
+
+#D4 img {
+    height: 60px;
+    width: 100px;
+}
+
+#D6 {
+    height: 60px;
+    width: 70%;
+}
+
+#D7 {
+    height: 60px;
+    width: 30%;
+}
+
+#D7 img {
+    height: 60px;
+}
+
+#D8 {
+    height: 230px;
+    width: 100%;
+}
+
+#D9 img {
+    height: 60px;
+    width: 100px;
+}
+
+#D10 {
+    height: 60px;
+    width: 70%;
+    padding: 8px;
+}
+
+.header13 {
+    height: 550px;
+    width: 100%;
+    background-color: grey;
+    text-align: center;
+    padding: 50px;
+
+}
+
+#sp1 {
+    color: blue;
+}
+
+#cl {
+    color: #ec0808;
+}
+
+#cd1 {
+    height: 400px;
+    width: 90%;
+    margin: auto;
+    display: flex;
+}
+
+.cc1 {
+    height: 300px;
+    width: 300px;
+    margin: auto;
+    background-color: aliceblue;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+}
+
+h3 {
+    color: #ec0808;
+}
+
+.header14 {
+    height: 550px;
+    width: 100%;
+    background-color: white;
+    text-align: center;
+    padding: 50px;
+
+}
+
+.header15 {
+    height: 200px;
+    background-color: lightblue;
+    text-align: center;
+    padding: 50px;
+}
+
+.vr {
+    border-left: 2px solid blue;
+    height: 30px;
+    margin-left: 700px;
+    margin-bottom: 200px;
+}
+
+#btn {
+    height: 40px;
+    background-color: blue;
+}
+
+.header16 {
+    height: 300px;
+    width: 100%;
+    background-color: black;
+    padding: 50px;
+
+
+    .final {
+        display: flex;
+    }
+
+    .cd1 {
+        height: 200px;
+        width: 300px;
+        background-color: black;
+        color: white;
+    }
